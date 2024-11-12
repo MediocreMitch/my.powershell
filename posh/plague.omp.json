@@ -53,7 +53,7 @@
           "type": "node"
         },
         {
-          "background": "#203248",
+          "background": "#365b7d",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
@@ -68,6 +68,19 @@
           "template": " \uf0e7 ",
           "type": "root"
         },
+	{
+          "background": "#e38c22",
+          "foreground": "#ffffff",
+	  "powerline_symbol": "\ue0b0",
+          "properties": {
+            "always_enabled": true,
+            "style": "austin",
+            "threshold": 500
+          },
+          "style": "powerline",
+	  "template": " {{ .FormattedMs }} ",
+          "type": "executiontime"
+        },
         {
           "background": "#2e9599",
           "background_templates": [
@@ -77,8 +90,8 @@
           "properties": {
             "always_enabled": true
           },
-          "style": "plain",
-          "template": "<transparent>\ue0b0</> \ue23a <background,transparent>\ue0b4</>",
+          "style": "diamond",
+          "template": "  \ue23a <background,transparent>\ue0b4</>",
           "type": "status"
         }
       ],
