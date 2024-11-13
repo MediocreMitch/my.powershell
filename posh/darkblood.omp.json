@@ -7,8 +7,14 @@
         {
           "foreground": "#ffffff",
           "style": "plain",
-          "template": "<#CB4B16>\u250f[</>{{ .UserName }}<#CB4B16>]</>",
-          "type": "session"
+          "template": "<#CB4B16>\u250f[</>{{ .Icon }}<#CB4B16>]</>",
+          "type": "os"
+        },
+        {
+          "foreground": "#ffffff",
+          "style": "plain",
+          "template": "<#CB4B16>[</>{{ .Name }}<#CB4B16>]</>",
+          "type": "shell"
         },
         {
           "foreground": "#ffffff",
@@ -26,6 +32,15 @@
           "template": "<#CB4B16>[</>\uf0e7<#CB4B16>]</>",
           "type": "root"
         },
+	{
+		"foreground": "#ffffff",
+		"properties": {
+			"always_enabled": true
+		},
+		"style": "plain",
+		"template": "<#CB4B16>[</>{{ .FormattedMs }}<#CB4B16>]</>",
+		"type": "executiontime"
+	},
         {
           "foreground": "#ffffff",
           "style": "plain",
