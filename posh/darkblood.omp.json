@@ -18,9 +18,9 @@
         },
         {
           "foreground": "#ffffff",
-	  "properties": {
-	    "branch_icon": "\ue725"
-           },
+          "properties": {
+            "branch_icon": "\ue725"
+          },
 
           "style": "plain",
           "template": "<#CB4B16>[</>{{ .HEAD }}<#CB4B16>]</>",
@@ -32,15 +32,15 @@
           "template": "<#CB4B16>[</>\uf0e7<#CB4B16>]</>",
           "type": "root"
         },
-	{
-		"foreground": "#ffffff",
-		"properties": {
-			"always_enabled": true
-		},
-		"style": "plain",
-		"template": "<#CB4B16>[</>{{ .FormattedMs }}<#CB4B16>]</>",
-		"type": "executiontime"
-	},
+        {
+          "foreground": "#ffffff",
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "<#CB4B16>[</>{{ .FormattedMs }}<#CB4B16>]</>",
+          "type": "executiontime"
+        },
         {
           "foreground": "#ffffff",
           "style": "plain",
